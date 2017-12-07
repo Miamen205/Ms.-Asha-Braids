@@ -370,3 +370,144 @@ ul {
   background-position: center;
   background-size: cover;
 }
+
+
+
+/* Login Page styling */
+
+#login-span{
+  color: black;
+}
+
+#submit-button{
+  background-color: rgb(255, 0, 119);
+  color: white;
+}
+
+.text-center{
+  color: white;
+}
+
+#login-form{
+  background: url(http://www.fremontbeautycollege.com/wp-content/uploads/2017/07/BELLEVUE-CONTACT-MENU-OF-SERVICES-STYLIST-DIRECTORY-PRODUCTS-....jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#forgot-password{
+  color: white;
+}
+
+#Not-SIgned-up-yet{
+  color: white;
+}
+
+/* Login form styling */
+
+.login-form form {
+  border-radius: 10px;
+  padding: 15.5px;
+  width: 91.9%;
+  display: block;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+  /* background: url(http://www.blackhairsaloncleveland.com/wp-content/uploads/2016/01/dzfhfdfd.jpg); */
+}
+
+.login-form form label {
+  display: block;
+}
+
+.login-form form p {
+  margin: 0;
+}
+
+.login-form form .full {
+  grid-column: 1 / 3;
+}
+
+.login-form form button,
+.login-form form input,
+.login-form form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #2b9cf8;
+}
+
+.login-form form button {
+  background: #f01c4a;
+  border: 0;
+  text-transform: uppercase;
+}
+.login-form form button:hover {
+  background-color: #f5325c;
+}
+
+.login-form form button:focus {
+  background: #ffffff;
+  color: #fff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+
+
+/* sign up form styling */
+
+#sign-up-form{
+  background: url(http://www.thechicfish.com/wp-content/uploads/2011/07/Gum_4-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sign-up-form form {
+  border-radius: 10px;
+  padding: 15.5px;
+  width: 91.9%;
+  display: block;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+   /* background: url(http://www.thechicfish.com/wp-content/uploads/2011/07/Gum_4-1.jpg);  */
+}
+
+.sign-up-form form label {
+  display: block;
+}
+
+.sign-up-form form p {
+  margin: 0;
+}
+
+.sign-up-form form .full {
+  grid-column: 1 / 3;
+}
+
+.sign-up-form form button,
+.sign-up-form form input,
+.sign-up-form form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #2b9cf8;
+}
+
+.sign-up-form form button {
+  background: #f01c4a;
+  border: 0;
+  text-transform: uppercase;
+}
+.sign-up-form form button:hover {
+  background-color: #f5325c;
+}
+
+.sign-up-form form button:focus {
+  background: #ffffff;
+  color: #fff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+#Already-Signed-up{
+  color: white;
+}

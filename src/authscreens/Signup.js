@@ -65,9 +65,14 @@ class Signup extends Component {
   render() {
     return (
       <div className="Signup">
-        <h1>Sign up</h1>
+         <div className="container">
+         <h1 className="brand">
+         <center>
+         <span id="login-span"> Sign up</span>
+        </center>
+        </h1>
+        <div id="sign-up-form" className="wrapper">
         <div className="col-md-4"></div>
-
           <div className="form-group col-md-4">
             <a className="btn btn-block btn-social btn-facebook" onClick={this.handleFacebook}>
               <span className="fa fa-facebook"></span>
@@ -77,15 +82,20 @@ class Signup extends Component {
               <span className="fa fa-google"></span>
               Sign in with Google
             </a>
-          <br/>
-          <p className="text-center">------------- Or -------------</p>
+            </div>
+          <p className="text-center"></p>
+          <div className="sign-up-form">
           <form onSubmit={this.handleSubmit}>
+          <label id="form-label">Email Address</label>
           	<input type="text" className="form-control" value={this.state.email} onChange={this.handleEmailChange} placeholder="Enter Email" />
+            <label id="form-label">Password</label>
           	<input type="password" className="form-control" value={this.state.password} onChange={this.handlePassChange} placeholder="Enter Password" /><br/>
-          	<button type="submit" className="btn btn-default">Submit</button>
+          	<button id="submit-button" type="submit" className="btn btn-default">Submit</button>
           </form>  
           	<br/>
-        	<p>Already Signed up? <Link to="/login">Log In</Link></p>
+        	<p id="Already-Signed-up">Already Signed up? <Link to="/login">Log In</Link></p>
+        </div>
+        </div>
         </div>
       </div>
     );

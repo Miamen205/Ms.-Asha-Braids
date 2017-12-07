@@ -77,7 +77,7 @@ class Emailpage extends Component {
                 <div className="alert">Your message has been sent</div>
                 <form onSubmit={this.addMessage.bind(this)} id="contactForm">
                   <p>
-                    <label>Name</label>
+                    <label id="form-label">Name</label>
                     <input
                       type="text"
                       ref={el => (this.name = el)}
@@ -87,7 +87,7 @@ class Emailpage extends Component {
                     />
                   </p>
                   <p>
-                    <label>Company</label>
+                    <label id="form-label">Company</label>
                     <input
                       type="text"
                       ref={el => (this.company = el)}
@@ -96,7 +96,7 @@ class Emailpage extends Component {
                     />
                   </p>
                   <p>
-                    <label>Email Address</label>
+                    <label id="form-label">Email Address</label>
                     <input
                       type="email"
                       ref={el => (this.email = el)}
@@ -106,7 +106,7 @@ class Emailpage extends Component {
                     />
                   </p>
                   <p>
-                    <label>Phone Number</label>
+                    <label id="form-label">Phone Number</label>
                     <input
                       ref={el => (this.phone = el)}
                       type="text"
@@ -115,7 +115,7 @@ class Emailpage extends Component {
                     />
                   </p>
                   <p className="full">
-                    <label>Message</label>
+                    <label id="form-label">Message</label>
                     <textarea
                       ref={el => (this.message = el)}
                       name="message"
@@ -124,7 +124,7 @@ class Emailpage extends Component {
                     />
                   </p>
                   <p className="full">
-                    <button type="submit">Submit</button>
+                    <button id="form-label" type="submit">Submit</button>
                   </p>
                   <ul>
                     {/* Render the list of messages */
